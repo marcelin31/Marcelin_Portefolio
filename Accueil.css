@@ -82,15 +82,38 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.fa-magnifying-glass {
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: color 0.3s;
+/* Styles de mon cv */
+
+.cv-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #FFD700;
+  background-color: transparent;
+  font-weight: bold;
+  border: 2px solid #FFD700;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
-.fa-magnifying-glass:hover {
-    color: #f8b400;
+.cv-link i {
+  color: white; 
+  transition: color 0.3s ease;
 }
+
+.cv-link:hover {
+  background-color: #ffd900fc;
+  color: white; 
+}
+
+.cv-link:hover i {
+  color: #cda50674; 
+  background-color: white;
+  border-radius: 50%;
+}
+
 
 /* Icônes réseaux sociaux */
 .social-icons {
